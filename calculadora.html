@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+    <div class="columna">
+        <div class="card">
+            <div class="parte1">
+                <h2>DÓLAR OFICIAL</h2>
+                <article>
+                    <div class="compra">
+                        <h3>compra</h3>
+                        <p id="compra-4"></p>
+
+                    </div>
+                    <div class="venta">
+                        <h3>venta</h3>
+                        <p id="venta-4"></p>
+                    </div>
+                </article>
+                <p class="tiempo"></p>
+            </div>
+            <div class="parte2">
+                <div id="contenedor">
+                    <div class="btn" id="btn"></div>
+                </div>
+                <div class="calcular">
+                    <div class="cal-venta" id="cal-venta" style="display: none;">
+                        <h3>Venta</h3>
+                        <label for="peso">Cantidad en Dolar</label>
+                        <input type="number" id="peso" placeholder="Cantidad de Dolar">
+                        <button id="convertir">Convertir</button>
+                        <p id="resultado">ds32132312</p>
+                    </div>
+                    <div class="cal-compra" id="cal-compra">
+                        <h3>Compra</h3>
+                        <label>Cantidad en Pesos</label>
+                        <input type="number" id="peso" placeholder="Cantidad de Pesos">
+                        <button id="convertir">Convertir</button>
+                        <p id="resultado">ds32132312</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
